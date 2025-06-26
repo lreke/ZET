@@ -28,7 +28,7 @@ def menu():
           
     1 - ŞİFRE KRİPTOLAMA
 
-    2 PFOZ
+    2 - PFOZ
     ----------------------------
     """)
 
