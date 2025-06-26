@@ -1,6 +1,9 @@
 import phonenumbers
 from phonenumbers import geocoder, carrier
 
+os.system("pip install phonenumbers")
+os.system("clear")
+
 numara = input("Telefon numarasını uluslararası formatta gir (örn: +905xxxxxxxxx): ")
 try:
     parsed_num = phonenumbers.parse(numara)
