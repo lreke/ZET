@@ -1,14 +1,7 @@
 
 import os
 
-dogru_sifre = "zetronciern"
-
-# Şifre kontrolü
-girilen_sifre = input("🔐 Lütfen şifreyi girin: ").strip()
-
-if girilen_sifre != dogru_sifre:
-    print("❌ Hatalı şifre! Erişim reddedildi.")
-    exit()
+os.system("clear")
 
 def figlet():
     os.system("apt-get install figlet")
